@@ -9,7 +9,7 @@ import React from "react";
 import { useQuery } from "react-query";
 import DetailHeader from "../components/DetailHeader";
 import BottomSheet from "@gorhom/bottom-sheet";
-import ListViewSheet from "../components/ListViewSheet";
+import MovieDetailSheet from "../components/MovieDetailSheet";
 
 export default function MovieDetail({ route, navigation }) {
   const { height, width } = Dimensions.get("window");
@@ -65,7 +65,7 @@ export default function MovieDetail({ route, navigation }) {
         ref={bottomSheetRef}
         snapPoints={snapPoints}
       >
-        <ListViewSheet movie={data} />
+        <MovieDetailSheet movie={data} />
       </BottomSheet>
       <StatusBar />
       <DetailHeader data={data} navigation={navigation} />
