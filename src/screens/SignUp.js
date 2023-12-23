@@ -55,6 +55,7 @@ export default function SignUp({ navigation }) {
             placeholder="E-mail"
           />
           <TextInput
+            secureTextEntry
             value={password}
             onChangeText={(text) => setPassword(text)}
             className="bg-white/5 p-3 rounded-xl text-white text-lg"

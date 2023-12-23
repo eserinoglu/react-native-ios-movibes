@@ -46,7 +46,7 @@ export default function Profile() {
         <View className="flex-row items-center justify-between">
           <View className="p-3 rounded-xl bg-white/5 border border-white/10 flex-row items-center space-x-2 w-full">
             <Text className="text-white/50 tracking-tight text-base">
-              {displayName.length > 0 && displayName}
+              {displayName?.length > 0 && displayName}
             </Text>
           </View>
         </View>
