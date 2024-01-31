@@ -2,6 +2,8 @@
 
 Movibes is a platform that allows you to explore and track the movies. You can add movies to your favorites list or your watchlist. Also you can create your custom lists.
 
+For Web App : [Movibes Web App](https://github.com/eserinoglu/nextjs-movibes)
+
 ![Frame 1](https://github.com/eserinoglu/react-native-ios-movie-listing-app/assets/132064533/5e1c6e93-cdb1-4af9-8af9-1c83475563c7)
 ![Frame 6](https://github.com/eserinoglu/react-native-ios-movie-listing-app/assets/132064533/384232aa-4d86-456f-a541-b76bbfdac5b2)
 ![Frame 2](https://github.com/eserinoglu/react-native-ios-movie-listing-app/assets/132064533/5a5ae2b6-1484-4d3d-8c25-eccb318e49bc)
